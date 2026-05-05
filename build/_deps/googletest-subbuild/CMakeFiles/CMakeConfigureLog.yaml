@@ -1,0 +1,149 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/jiaxin/miniforge3/bin/"
+      - "/Users/jiaxin/miniforge3/condabin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/jiaxin/.local/bin/"
+      - "/Users/jiaxin/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/3e8f8864-45ea-4a4e-8d5b-00b7dc81e343/e292ff8f-3e07-4c8d-a899-5a60a12de370/bin/"
+      - "/Users/jiaxin/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/bin/"
+      - "/Users/jiaxin/.claude/plugins/cache/claude-plugins-official/frontend-design/unknown/bin/"
+      - "/Users/jiaxin/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0/bin/"
+    searched_directories:
+      - "/Users/jiaxin/miniforge3/bin/uname"
+      - "/Users/jiaxin/miniforge3/condabin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/jiaxin/miniforge3/bin"
+        - "/Users/jiaxin/miniforge3/condabin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/jiaxin/.local/bin"
+        - "/Users/jiaxin/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/3e8f8864-45ea-4a4e-8d5b-00b7dc81e343/e292ff8f-3e07-4c8d-a899-5a60a12de370/bin"
+        - "/Users/jiaxin/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/bin"
+        - "/Users/jiaxin/.claude/plugins/cache/claude-plugins-official/frontend-design/unknown/bin"
+        - "/Users/jiaxin/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Darwin - 23.6.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:66 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/jiaxin/miniforge3/bin/"
+      - "/Users/jiaxin/miniforge3/condabin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/jiaxin/.local/bin/"
+      - "/Users/jiaxin/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/3e8f8864-45ea-4a4e-8d5b-00b7dc81e343/e292ff8f-3e07-4c8d-a899-5a60a12de370/bin/"
+      - "/Users/jiaxin/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/bin/"
+      - "/Users/jiaxin/.claude/plugins/cache/claude-plugins-official/frontend-design/unknown/bin/"
+      - "/Users/jiaxin/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0/bin/"
+    searched_directories:
+      - "/Users/jiaxin/miniforge3/bin/install_name_tool"
+      - "/Users/jiaxin/miniforge3/condabin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/jiaxin/miniforge3/bin"
+        - "/Users/jiaxin/miniforge3/condabin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/jiaxin/.local/bin"
+        - "/Users/jiaxin/Library/Application Support/Claude/local-agent-mode-sessions/skills-plugin/3e8f8864-45ea-4a4e-8d5b-00b7dc81e343/e292ff8f-3e07-4c8d-a899-5a60a12de370/bin"
+        - "/Users/jiaxin/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/bin"
+        - "/Users/jiaxin/.claude/plugins/cache/claude-plugins-official/frontend-design/unknown/bin"
+        - "/Users/jiaxin/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+...

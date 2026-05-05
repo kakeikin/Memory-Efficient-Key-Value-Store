@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/kv_store.dir/main.cpp.o -o kv_store  libkv_store_lib.a

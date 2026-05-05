@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/jiaxin/ClaudeProjects/kv-store/build/cmake_install.cmake",
+		"/Users/jiaxin/ClaudeProjects/kv-store/build/_deps/googletest-build/cmake_install.cmake",
+		"/Users/jiaxin/ClaudeProjects/kv-store/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/Users/jiaxin/ClaudeProjects/kv-store/build/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

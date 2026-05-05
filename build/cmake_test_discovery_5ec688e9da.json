@@ -1,0 +1,270 @@
+{
+  "tests": 48,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "HashTableTest",
+      "tests": 13,
+      "testsuite": [
+        {
+          "name": "InsertNewKeyReturnsTrue",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_hash_table.cpp",
+          "line": 6
+        },
+        {
+          "name": "FindAfterInsert",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_hash_table.cpp",
+          "line": 11
+        },
+        {
+          "name": "FindMissingKeyReturnsNullopt",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_hash_table.cpp",
+          "line": 17
+        },
+        {
+          "name": "OverwriteExistingKeyReturnsFalse",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_hash_table.cpp",
+          "line": 22
+        },
+        {
+          "name": "EraseExistingKey",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_hash_table.cpp",
+          "line": 30
+        },
+        {
+          "name": "EraseMissingKeyReturnsFalse",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_hash_table.cpp",
+          "line": 38
+        },
+        {
+          "name": "ContainsExistingKey",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_hash_table.cpp",
+          "line": 43
+        },
+        {
+          "name": "SizeTracking",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_hash_table.cpp",
+          "line": 50
+        },
+        {
+          "name": "LoadFactor",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_hash_table.cpp",
+          "line": 60
+        },
+        {
+          "name": "RehashPreservesAllKeys",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_hash_table.cpp",
+          "line": 67
+        },
+        {
+          "name": "RehashDoublesBucketCount",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_hash_table.cpp",
+          "line": 80
+        },
+        {
+          "name": "ZeroCapacityThrows",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_hash_table.cpp",
+          "line": 95
+        },
+        {
+          "name": "CollisionHandling",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_hash_table.cpp",
+          "line": 99
+        }
+      ]
+    },
+    {
+      "name": "WALTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "AppendSetWritesRecord",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_wal.cpp",
+          "line": 21
+        },
+        {
+          "name": "ReplaySetRecords",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_wal.cpp",
+          "line": 33
+        },
+        {
+          "name": "ReplayDeleteRecord",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_wal.cpp",
+          "line": 52
+        },
+        {
+          "name": "ReplayOnEmptyFileReturnsZero",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_wal.cpp",
+          "line": 70
+        },
+        {
+          "name": "ReplayOrderPreserved",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_wal.cpp",
+          "line": 80
+        },
+        {
+          "name": "ValueWithSpacesPreserved",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_wal.cpp",
+          "line": 97
+        },
+        {
+          "name": "AppendAfterReopen",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_wal.cpp",
+          "line": 116
+        }
+      ]
+    },
+    {
+      "name": "KVStoreTest",
+      "tests": 14,
+      "testsuite": [
+        {
+          "name": "SetAndGet",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 28
+        },
+        {
+          "name": "GetMissingKeyReturnsNullopt",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 33
+        },
+        {
+          "name": "OverwriteKey",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 37
+        },
+        {
+          "name": "DeleteExistingKey",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 44
+        },
+        {
+          "name": "DeleteMissingKeyReturnsFalse",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 50
+        },
+        {
+          "name": "ExistsKey",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 54
+        },
+        {
+          "name": "SizeTracking",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 60
+        },
+        {
+          "name": "RecoveryRestoresState",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 71
+        },
+        {
+          "name": "RecoveryOverwrittenKey",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 84
+        },
+        {
+          "name": "RecoveryMemoryAccountingIsCorrect",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 93
+        },
+        {
+          "name": "ConcurrentReadsDoNotRace",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 105
+        },
+        {
+          "name": "ConcurrentWritesAndReadsDoNotRace",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 119
+        },
+        {
+          "name": "MemoryUsageIncreasesOnSet",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 149
+        },
+        {
+          "name": "MemoryUsageDecreasesOnErase",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_kv_store.cpp",
+          "line": 155
+        }
+      ]
+    },
+    {
+      "name": "LRUCacheTest",
+      "tests": 14,
+      "testsuite": [
+        {
+          "name": "PutAndGet",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 6
+        },
+        {
+          "name": "GetMissingReturnsNullopt",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 12
+        },
+        {
+          "name": "UpdateExistingKey",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 17
+        },
+        {
+          "name": "RemoveKey",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 25
+        },
+        {
+          "name": "RemoveMissingKeyReturnsFalse",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 33
+        },
+        {
+          "name": "ContainsKey",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 38
+        },
+        {
+          "name": "SizeTracking",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 45
+        },
+        {
+          "name": "NoEvictionBelowCapacity",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 55
+        },
+        {
+          "name": "EvictsLRUOnCapacityExceeded",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 63
+        },
+        {
+          "name": "GetUpdatesLRUOrder",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 77
+        },
+        {
+          "name": "PutUpdateDoesNotEvict",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 89
+        },
+        {
+          "name": "ZeroCapacityThrows",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 100
+        },
+        {
+          "name": "CapacityOneAlwaysEvicts",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 104
+        },
+        {
+          "name": "EvictionOrderIsCorrectAfterMixedOps",
+          "file": "\/Users\/jiaxin\/ClaudeProjects\/kv-store\/tests\/test_lru.cpp",
+          "line": 113
+        }
+      ]
+    }
+  ]
+}

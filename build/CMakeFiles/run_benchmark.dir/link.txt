@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/run_benchmark.dir/bench/run_benchmark.cpp.o -o run_benchmark  libkv_store_lib.a

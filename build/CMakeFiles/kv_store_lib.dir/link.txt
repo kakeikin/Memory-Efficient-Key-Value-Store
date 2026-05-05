@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkv_store_lib.a CMakeFiles/kv_store_lib.dir/src/hash_table.cpp.o CMakeFiles/kv_store_lib.dir/src/wal.cpp.o CMakeFiles/kv_store_lib.dir/src/allocator.cpp.o CMakeFiles/kv_store_lib.dir/src/thread_pool.cpp.o CMakeFiles/kv_store_lib.dir/src/lru_cache.cpp.o CMakeFiles/kv_store_lib.dir/src/shard.cpp.o CMakeFiles/kv_store_lib.dir/src/stats.cpp.o CMakeFiles/kv_store_lib.dir/src/kv_store.cpp.o CMakeFiles/kv_store_lib.dir/src/cli.cpp.o CMakeFiles/kv_store_lib.dir/src/benchmark.cpp.o
+/usr/bin/ranlib libkv_store_lib.a
